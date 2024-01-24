@@ -3,7 +3,7 @@
 
 https://github.com/seermer/HollowKnight_RL  
 
-The code is based on this author's base, so if you want to run this program, you need to go to the original author's code repository and download the "show bloodstain mod", two images for positioning, change the game resolution and window mode, and then you also need to beat the Hollow Knight to the God's House and unlock the artifact house.
+The code is based on this author's base, so if you want to run this program, you need to go to the original author's code repository and download the "Enemybloodbar" mod, two images for positioning, change the game resolution and window mode, and then you also need to beat the Hollow Knight to the God's House and unlock zote.
 Also, my keystrokes are move: a & d; up and down: w & s; attack: j; jump: k
 Run model.py to start training, and change the timed save step interval in callback2
 Runs in Python 3.9.
