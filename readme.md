@@ -3,9 +3,12 @@
 
 https://github.com/seermer/HollowKnight_RL  
 
-The code is based on this author's base, so if you want to run this program, you need to go to the original author's code repository and download the "Enemybloodbar" mod, two images for positioning, change the game resolution and window mode, and then you also need to beat the Hollow Knight to the God's House and unlock zote.\n
-Also, my keystrokes are move: a & d; up and down: w & s; attack: j; jump: k.\n
-Run model.py to start training, and change the timed save step interval in callback2\n
+The code is based on this author's base, so if you want to run this program, you need to go to the original author's code repository and download the "Enemybloodbar" mod, two images for positioning, change the game resolution and window mode, and then you also need to beat the Hollow Knight to the God's House and unlock zote.
+
+Also, my keystrokes are move: a & d; up and down: w & s; attack: j; jump: k.
+
+Run model.py to start training, and change the timed save step interval in callback2.
+
 Runs in Python 3.9.
 
 # My changes
@@ -15,9 +18,9 @@ Rewriting env, the rest is written in stablebaseline3.
 # Differences from the original author:
 
 1. from 0.3s per step to 0.15s per step
-2. the network is different, see model.py for details.
-3. ai can now choose how high to jump.
-4. use ppo instead of dqn, of course, under the framework of stablebaseline3, it is still convenient to change the algorithm.
+2. the network is different, see model.py for details
+3. ai can now choose how high to jump
+4. use ppo instead of dqn, of course, under the framework of stablebaseline3, it is still convenient to change the algorithm
 5. add downward slash
 6. add dash and no attack
 7. add zote to boss
@@ -30,6 +33,6 @@ Rewriting env, the rest is written in stablebaseline3.
 
 1. remove stay, since reducing the STEP interval makes moving left and right good enough for any action
 
-2. add more information to the model inputs, sprint hardening, movement in the last few frames.
+2. add more information to the model inputs, sprint hardening, movement in the last few frames
 
-3. improve the order of execution between jump, move, and dash, because if this frame is a dash, then jumping becomes pointless and a waste of jumps.
+3. improve the order of execution between jump, move, and dash, because if this frame is a dash, then jumping becomes pointless and a waste of jumps
