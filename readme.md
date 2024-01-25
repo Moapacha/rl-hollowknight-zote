@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 This is a project that uses reinforcement learning method to make robot able to beat one of the hardest HollowKnight bosses---zote.
 
