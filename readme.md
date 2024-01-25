@@ -10,13 +10,13 @@ The videos shows the process of training the bot and the final trained result, w
 
 https://github.com/seermer/HollowKnight_RL  
 
-The code is based on this repo, so if you want to run this program, you need to go to the original author's code repository and download the "Enemybloodbar" mod, change the game resolution and window mode, and then you also need to beat the Hollow Knight to the God's House and unlock zote.
+The code is based on this repo.
+
+To run this program, you need to download the "Enemybloodbar" mod, change the game resolution and window mode, and then you also need to beat the Hollow Knight to the God's House and unlock zote.
 
 Also, my keystrokes are move: a & d; up and down: w & s; attack: j; jump: k.
 
-Run model.py to start training, and change the timed save step interval in callback2.
-
-Runs in Python 3.9.
+Runs in Python 3.11.
 
 Using PPO as model.
 
