@@ -18,7 +18,7 @@ Also, my keystrokes are move: a & d; up and down: w & s; attack: j; jump: k.
 
 Runs in Python 3.11.
 
-Using PPO as model.
+Using PPO as model. (You can change it easily as I'm useing stablebaseline3)
 
 model -> change callback -> continue -> test
 
