@@ -12,6 +12,8 @@ Run model.py to start training, and change the timed save step interval in callb
 
 Runs in Python 3.9.
 
+model -> change callback -> continue -> test
+
 # My changes
 
 Rewriting env, the rest is written in stablebaseline3.
