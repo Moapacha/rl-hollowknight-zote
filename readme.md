@@ -12,6 +12,8 @@ Run model.py to start training, and change the timed save step interval in callb
 
 Runs in Python 3.9.
 
+Using PPO as model.
+
 model -> change callback -> continue -> test
 
 # My changes
