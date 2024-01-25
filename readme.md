@@ -1,5 +1,3 @@
-# Unfinished!!!!
-
 # How to run
 
 https://github.com/seermer/HollowKnight_RL  
