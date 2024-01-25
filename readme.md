@@ -1,3 +1,11 @@
+#Introduction
+
+This is a project that uses reinforcement learning method to make robot able to beat one of the hardest HollowKnight bosses---zote.
+
+
+
+The videos shows the process of training the bot and the final result, which is a great progress.
+
 # How to run
 
 https://github.com/seermer/HollowKnight_RL  
