@@ -54,4 +54,6 @@ Currently working on:
 
 1. how to train rapidly with multiple games opened at the same time
 
+[Image text](https://github.com/Moapacha/rl-hollowknight-zote/blob/main/multiple_training_example.png)
+
 2. using ce to accelerate game time and reach game information address in order to make training process more efficient
