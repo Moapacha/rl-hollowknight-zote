@@ -47,3 +47,11 @@ Rewriting env, the rest is written in stablebaseline3.
 2. add more information to the model inputs, sprint hardening, movement in the last few frames
 
 3. improve the order of execution between jump, move, and dash, because if this frame is a dash, then jumping becomes pointless and a waste of jumps
+
+# Updates:
+
+Currently working on:
+
+1. how to train rapidly with multiple games opened at the same time
+
+2. using ce to accelerate game time and reach game information address in order to make training process more efficient
